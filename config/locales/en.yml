@@ -20,5 +20,26 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  hello: "Hello, welcome to the Sample App!"
+  ror: "Ruby on Rails"
+  rort: "Ruby on Rails Tutorial"
+  rort_book: "Ruby on Rails Tutorial book"
   sample_app: "Sample App"
+  home: "Home"
+  help: "Help"
+  about: "About"
+  contact: "Contact"
+  static_pages:
+    about:
+      message: "This is the sample application for the tutorial"
+      teach_web: "to teach web development with"
+      screencast: "screencast series"
+      book: "is a book and"
+    contact:
+      contact_rort: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contact_page: "contact page"
+    help:
+      get_help_ror: "Get help on the Ruby on Rails at the"
+      rort_help_page: "Rails Tutorials help page"
+    home:
+      home_page: "This is the home page for the"
