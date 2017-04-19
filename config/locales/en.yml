@@ -43,3 +43,7 @@ en:
       rort_help_page: "Rails Tutorials help page"
     home:
       home_page: "This is the home page for the"
+  sign_in: "Sign in"
+  sign_up: "Sign up"
+  michael_hartl: "Michael Hartl"
+  new: "News"
