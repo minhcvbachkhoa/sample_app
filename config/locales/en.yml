@@ -43,7 +43,12 @@ en:
       rort_help_page: "Rails Tutorials help page"
     home:
       home_page: "This is the home page for the"
-  sign_in: "Sign in"
+  log_in: "Log in"
   sign_up: "Sign up"
   michael_hartl: "Michael Hartl"
   new: "News"
+  confirmation: "Confirmation"
+  create_account: "Create my account"
+  form_contain: "The form contains"
+  error: "error"
+  user_not_found: "User not found"
