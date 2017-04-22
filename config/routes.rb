@@ -9,8 +9,11 @@ Rails.application.routes.draw do
   post "/log_in", to: "sessions#create"
   delete "/log_out", to: "sessions#destroy"
 
-  resources :users
+  resources :users do
+    resources :relationships, only: :index
+  end
   resources :account_activations, only: :edit
   resources :password_resets, except: [:index, :show, :destroy]
   resources :microposts, only: [:create, :destroy]
+  resources :relationships, only: [:create, :destroy]
 end
