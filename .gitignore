@@ -21,3 +21,6 @@
 .byebug_history
 config/database.yml
 config/secrets.yml
+config/i18n-js.yml
+public/**
+app/assets/javascripts/i18n/*
